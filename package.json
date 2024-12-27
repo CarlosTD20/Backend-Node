@@ -1,0 +1,30 @@
+{
+  "name": "backend-node",
+  "version": "1.0.0",
+  "description": "A Backend project to learn Nodejs and Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosTD20/Backend-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CarlosTD20/Backend-Node/issues"
+  },
+  "homepage": "https://github.com/CarlosTD20/Backend-Node#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "uuid": "^11.0.3"
+  }
+}
