@@ -13,7 +13,7 @@ const getAllWorkouts = (req, res) => {
 
 const getOneWorkout = (req, res) => {
     const {
-        params: { workoutId },
+        params: { workoutId }
     } = req
 
     if (!workoutId) {
